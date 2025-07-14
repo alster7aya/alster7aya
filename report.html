@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>نموذج الإبلاغ عن ابتزاز</title>
+    <style>
+        body {
+            background-color: #e0f0ff;
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: right;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #004080;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 15px 0 5px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>نموذج الإبلاغ عن ابتزاز</h1>
+
+    <form>
+        <label>نوع الابتزاز:</label>
+        <select>
+            <option>ابتزاز مالي</option>
+            <option>ابتزاز عاطفي</option>
+            <option>ابتزاز بصور أو مقاطع</option>
+            <option>تهديد مباشر</option>
+        </select>
+
+        <label>هل تعرف الشخص المبتز؟</label>
+        <select>
+            <option>نعم</option>
+            <option>لا</option>
+        </select>
+
+        <label>هل تم مشاركة صور أو مقاطع؟</label>
+        <select>
+            <option>نعم</option>
+            <option>لا</option>
+        </select>
+
+        <label>هل تم تهديدك بنشرها؟</label>
+        <select>
+            <option>نعم</option>
+            <option>لا</option>
+        </select>
+
+        <label>وصف مختصر لما حدث:</label>
+        <textarea rows="5" placeholder="اكتب هنا ما حدث..."></textarea>
+
+        <button type="submit">إرسال البلاغ (توعوي فقط)</button>
+    </form>
+
+</body>
+</html>
