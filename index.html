@@ -1,69 +1,44 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>الستر حياة</title>
-  <style>
-    body {
-      background-color: #007acc;
-      color: #fff;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0; padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      align-items: center;
-      justify-content: space-between;
-    }
-    header {
-      padding: 40px 20px 10px;
-      font-size: 2.5rem;
-      font-weight: bold;
-      text-align: center;
-      letter-spacing: 2px;
-      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-    }
-    main {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 25px;
-      width: 90%;
-      max-width: 400px;
-      margin-bottom: 40px;
-    }
-    button {
-      padding: 15px 20px;
-      font-size: 1.3rem;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      background-color: #005ea2;
-      color: #fff;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    button:hover {
-      background-color: #004080;
-    }
-    footer {
-      padding: 15px 10px;
-      font-size: 1rem;
-      text-align: center;
-      background-color: #005ea2;
-      width: 100%;
-      box-shadow: inset 0 1px 3px rgba(255,255,255,0.15);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>الستر حياة</title>
+    <style>
+        body {
+            background-color: #cce7ff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #003366;
+            font-size: 36px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #0059b3;
+            color: white;
+            padding: 15px 30px;
+            margin: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #003d80;
+        }
+    </style>
 </head>
 <body>
-  <header>الستر حياة</header>
-  <main>
-    <button onclick="alert('شكراً لتبليغك! سيتم مراجعة البلاغ.');">أبلغ عن ابتزاز</button>
-    <button onclick="alert('احرص على حماية بياناتك وعدم مشاركة معلوماتك الخاصة.');">كيف تحمي نفسك</button>
-  </main>
-  <footer>© 2025 إعداد: ع1079 – جميع الحقوق محفوظة</footer>
+
+    <h1>الستر حياة</h1>
+
+    <a href="report.html" class="button">أبلغ عن ابتزاز</a>
+    <a href="protect.html" class="button">كيف تحمي نفسك</a>
+
 </body>
 </html>
